@@ -16,3 +16,10 @@ footer: MIT Licensed | Copyright © 2018-present Sylvain Gogel
 # Hello VuePress
 
 Un simple markdown et c'est parti!!
+
+```bash
+yarn install
+yarn docs:dev
+```
+
+Let's go to [localhost:8080](http://localhost:8080)
