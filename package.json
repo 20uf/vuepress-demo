@@ -9,9 +9,15 @@
   "private": true,
   "scripts": {
     "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build ."
+    "docs:build": "vuepress build .",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "release": "standard-version --no-verify"
   },
   "devDependencies": {
+    "@commitlint/cli": "^6.2.0",
+    "@commitlint/config-conventional": "^6.1.3",
+    "husky": "^0.14.3",
+    "standard-version": "^4.3.0",
     "vuepress": "^0.8.4"
   }
 }
