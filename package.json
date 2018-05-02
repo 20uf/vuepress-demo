@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-demo",
+  "version": "0.0.0",
+  "description": "A vuepress test",
+  "main": "index.js",
+  "repository": "https://github.com/meshenka/vuepress-demo",
+  "author": "Sylvain Gogel",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
