@@ -1,8 +1,8 @@
 ---
 home: true
-tagline: A simple test of VuePress
+tagline: Un simple test de VuePress
 heroImage: https://avatars2.githubusercontent.com/u/158285?s=460&v=4
-actionText: A little try
+actionText: Voir sur mon repo GitHub
 actionLink: https://github.com/meshenka
 features:
 - title: Simplicity First
